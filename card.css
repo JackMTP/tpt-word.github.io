@@ -1,0 +1,79 @@
+/** @format */
+
+.card__container {
+  border: 0px solid black;
+  width: 100%;
+  padding-bottom: 0em;
+  padding-top: 3em;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  margin-left: 0%;
+}
+.card {
+  border: 1px solid black;
+  padding: 1em 0.5em;
+  background-color: #e7e7e7;
+  margin-left: 3%;
+  margin-right: 0%;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+}
+.card__img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  background-color: rgb(99, 99, 99);
+  border-radius: 0.5em;
+}
+.card__author,
+.card__date {
+  font-size: small;
+}
+.card__link--active {
+  display: block;
+  background-color: rgb(131, 131, 131);
+  text-decoration: none;
+  color: black;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  text-align: center;
+}
+.card__link--active:hover {
+  background-color: rgb(161, 161, 161);
+}
+@media screen and (max-width: 1200px) {
+  .card__container {
+    width: 100%;
+    margin-left: 0;
+    padding: 1em 0;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+@media screen and (max-width: 800px) {
+  .card__container {
+    width: 100%;
+    margin-left: 0;
+    padding: 1em 0;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+/*Button-query*/
+.button__container {
+  border: 0px solid black;
+  margin-top: 2em;
+  text-align: center;
+}
+.button__container__link {
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 0.2em 1em;
+  color: black;
+  background-color: rgb(138, 138, 138);
+}
+.button__container__link:hover {
+  background-color: black;
+  color: rgb(211, 211, 211);
+}
+/** @format */
