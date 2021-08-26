@@ -1,0 +1,347 @@
+/** @format */
+/** @format */
+
+/* Body */
+body {
+  overflow-x: hidden;
+  font-family: "Noto Sans";
+  background-color: rgb(255, 255, 255);
+  letter-spacing: normal;
+}
+/* The main content */
+main {
+  border: 0px solid black;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2.5em;
+  margin-bottom: -1.5em;
+  clear: both;
+}
+/*The above menu bar*/
+#top-icon {
+  display: inline;
+  text-decoration: none;
+}
+#icon {
+  width: 15px;
+  margin-left: 3%;
+}
+#icon:hover {
+  transform: scale(1.2);
+}
+.icon-container {
+  margin-top: 5em;
+  border: 0px solid black;
+  margin-top: -8px;
+  width: 104%;
+  margin-left: -9px;
+  margin-right: -2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+}
+.icon-div {
+  border: 0px solid black;
+  width: 20%;
+  margin-left: 20%;
+  float: left;
+}
+#in-up-item {
+  font-size: small;
+  text-decoration: none;
+  color: black;
+}
+#in-up-item:hover {
+  color: red;
+}
+.in-up {
+  border: 0px solid black;
+  width: 20%;
+  float: right;
+  margin-right: 22%;
+  text-align: right;
+  padding: 0px 0 6px 0;
+}
+/*The menu bar*/
+.menu-list {
+  text-align: center;
+  border: 0px solid black;
+  background-color: rgb(196, 196, 196);
+  top: 0;
+  position: sticky;
+  width: 104%;
+  margin-left: -8px;
+  box-shadow: black 0px 0px 3px 0px;
+  clear: both;
+  margin-right: -4px;
+}
+#menu-item {
+  display: inline-block;
+  text-align: center;
+  border: 0px solid black;
+  padding: 0 2% 0 2%;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+#menu-item:hover {
+  color: rgb(255, 255, 255);
+}
+/*The search bar*/
+.search-bar {
+  border: 0px solid black;
+  margin-bottom: 1.5em;
+  margin-left: 5%;
+  text-align: center;
+}
+#search {
+  width: 70%;
+  height: 40px;
+  border: 1px solid black;
+  padding-left: 10px;
+}
+#search-button {
+  width: 5%;
+  height: 40px;
+  border: 1px solid black;
+}
+#search-button:hover {
+  background-color: rgb(131, 131, 131);
+  cursor: pointer;
+}
+/*The concept*/
+#Bill-quote {
+  width: 80%;
+  margin-left: 9.5%;
+  margin-bottom: 1em;
+  border: 5px solid rgb(167, 167, 167);
+}
+.Concept-area {
+  border: 0px solid black;
+  padding-top: 0;
+}
+#Concept-item {
+  border: 1px solid rgb(32, 32, 32);
+  background-color: rgb(241, 241, 241, 1.2);
+  text-align: justify;
+  line-height: 1.75em;
+  float: left;
+  margin-left: 1.1%;
+  width: 30%;
+  padding: 4px 6px 4px 6px;
+}
+#Concept-title {
+  text-align: center;
+  background-color: rgb(117, 117, 117);
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+}
+/*The table vocab*/
+.table {
+  border: 0px solid black;
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.table tr td {
+  border: 1px solid rgb(44, 44, 44);
+  padding: 1em 0 1em 0px;
+}
+#EN-word {
+  width: 60%;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 10px;
+  color: rgb(255, 0, 140);
+}
+#VN-word {
+  width: 40%;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding-left: 10px;
+}
+.Vocab-area {
+  border: 0px solid black;
+  padding-top: 1em;
+  clear: both;
+}
+#Vocab-title {
+  text-align: center;
+  background-color: rgb(109, 109, 109);
+  font-size: x-large;
+  clear: both;
+}
+.Vocab-topic {
+  border: 0px solid black;
+  margin-top: 1.5em;
+  text-align: center;
+}
+#Vocab-topic-item {
+  display: inline-block;
+  border: 0px solid rgb(228, 228, 228);
+  text-decoration: none;
+  color: black;
+  background-color: rgb(228, 228, 228);
+  padding: 2px 2% 2px 2%;
+  box-shadow: black 0px 1px 1px 0px;
+}
+#Vocab-topic-item:hover {
+  background-color: wheat;
+}
+#date {
+  color: rgb(0, 17, 255);
+}
+/*The Contributing button*/
+#Contributing-button {
+  width: 30%;
+  height: 40px;
+  font-size: larger;
+  border: 2px solid black;
+  background-color: rgb(184, 184, 184);
+}
+#Contributing-button:hover {
+  background-color: rgb(117, 117, 117);
+  cursor: pointer;
+}
+.Contributing-button {
+  border: 0px solid black;
+  text-align: center;
+  margin-top: 2em;
+}
+/*The About us*/
+.About-us {
+  border: 0px solid black;
+  text-align: justify;
+}
+#About-us-title {
+  background-color: rgb(134, 134, 134);
+  text-align: center;
+  margin-top: 1.5em;
+}
+.About-us p {
+  padding: 0 0 0 2%;
+  line-height: 2.5em;
+  border-left: 5px solid black;
+  margin-top: 2em;
+}
+/*The footer*/
+.foot {
+  border: 0px solid black;
+  margin-top: 5%;
+  padding: 10px 0 10px 0;
+  width: 104%;
+  background-color: rgb(196, 196, 196);
+  margin-left: -9px;
+  margin-right: -9px;
+  margin-bottom: -9px;
+  box-shadow: black 5px 5px 5px 5px;
+}
+#foot-link {
+  display: inline-block;
+  border: 0px solid black;
+  padding: 0 2% 0 2%;
+  text-decoration: none;
+  font-size: small;
+  color: rgb(0, 0, 0);
+}
+#foot-link:hover {
+  color: rgb(255, 255, 255);
+}
+.link-box {
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+  border: 0px solid black;
+}
+.foot-link {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  margin-bottom: 2em;
+}
+.foot__box {
+  border: 0px solid black;
+  margin-left: 1em;
+  margin-right: 3em;
+  text-align: center;
+}
+.foot__box__link {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 0.2em;
+}
+.foot__box__link:hover {
+  background-color: black;
+  color: white;
+}
+/*The sidebar*/
+.side__bar {
+  position: fixed;
+  border: 0px solid black;
+  top: 16em;
+  box-shadow: rgb(121, 121, 121) 0px 0px 5px 0px;
+  left: 0em;
+}
+.side__bar__link {
+  display: block;
+  text-decoration: none;
+  font-size: small;
+  color: rgb(7, 3, 3);
+  border: 0px solid black;
+  background-color: rgb(201, 201, 201);
+  padding: 0.5em 0.5em;
+}
+
+.side__bar__link:hover {
+  background-color: rgb(139, 139, 139);
+}
+/*The webkit*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 114, 114);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(37, 37, 37);
+}
+
+/*The responsive*/
+@media screen and (max-width: 1100px) {
+  #Concept-item {
+    clear: both;
+    width: 98%;
+    padding: 1% 1% 1% 1%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .Concept-area {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  main {
+    width: 100%;
+    margin: 0;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+  }
+  .link-box {
+    width: 100%;
+    padding-left: 0%;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .foot-link {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 1em;
+  }
+}
